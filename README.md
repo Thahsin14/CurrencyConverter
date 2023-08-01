@@ -1,5 +1,5 @@
 # CurrencyConverter
 Converter for over 30 currencies!
 
-![firstScreenshot](Assets/1.png)
-![secondScreenshot](Assets/1.png)
+![firstScreenshot](CurrencyConverter/Assets/1.png)
+![secondScreenshot](CurrencyConverter/Assets/1.png)
