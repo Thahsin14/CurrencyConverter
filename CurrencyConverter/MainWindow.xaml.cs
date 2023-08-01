@@ -76,9 +76,9 @@ namespace CurrencyConverter
             double final = 0;
             try
             {
-                string baseCurrency = startCurr;
-                string targetCurrency = endCurr;
-                string apiUrl = $"https://api.freecurrencyapi.com/v1/latest?apikey=fca_live_7I5HvJAEsA5zK48UDCxgvpWwjCgDURyveWjLoGc7&currencies={targetCurrency}&base_currency={baseCurrency}";
+                string baseCurrency = startCurr.ToLower();
+                string targetCurrency = endCurr.ToLower();
+                string apiUrl = $"https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/{baseCurrency}/{targetCurrency}.json";
                 double valuestarted = started;
 
                 using (HttpClient httpClient = new HttpClient())
